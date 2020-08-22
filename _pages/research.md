@@ -26,14 +26,12 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 <div>
 <img class="img-responsive" style="float:left;margin-right:10px;width:550px;height:350px;" src="/images/Tmap_Convergence.gif" title="Convergence of the discrete-time Tmap to the continuous-time solutions"> 
 <font size="3">
-Continuous-time macroeconomic literature has expanded greatly in recent years. 
-Modeling in this framework allows for the combination of classic macroeonomic and financial asset modeling techniques. 
-As work on continuous-time models becomes more prevalent macroeconomists will have to adapt essential discrete-time methods to continuous-time. 
-The aim of this paper is to modify adaptive learning techniques to continuous-time. 
-One approach to accomplish this  task,  is  to  begin  with  shadow-price  learning  (SP-learning) a framework in  which  agents  forecast  their  expected  shadow  prices. 
-In  order  to  use  this framework, I first need a tractable continuous-time linear quadratic regulator (LQR) problem. 
-While discrete-time LQR problems are common in economics literature, there is very little work on continuous-time LQR problems. 
-Thus, the contributions of this work are two-fold. I build a continuous-time LQR framework  for  solving  Hamilton-Jacobi-Bellman’s  (HJBs) using iterative methods and implement adaptive learning techniques in this new framework.
+Continuous-time macroeconomic literature has grown remarkably in recent
+years. As work on continuous-time models becomes, more prevalent macroeconomists need to adapt essential discrete-time methods to continuous-time.
+This paper modifies adaptive learning techniques to continuous-time. One approach to accomplish this task is shadow-price learning (SP-learning), a framework in which agents forecast their expected shadow prices. To use this framework efficiently, we first need a tractable continuous-time linear-quadratic (LQ)
+environment. While discrete-time LQ problems are common in the literature,
+there is very little work on continuous-time LQ problems. Thus, our contributions are two-fold. We build a continuous-time LQ framework for solving
+Hamilton-Jacobi-Bellman (HJB) equations using iterative methods and implement adaptive learning techniques in this new setting.
 </font>
 </div> 
 

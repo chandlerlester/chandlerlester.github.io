@@ -39,8 +39,6 @@ Hamilton-Jacobi-Bellman (HJB) equations using iterative methods and implement ad
 
 
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises (Third-Year Paper) 
-<div> 
-<font size="3">
 We accomplish two distinct, but closely connected, tasks in this paper.
 First, We look to create a connection between discrete and continuous-time models.
 This is done by recasting traditional discrete Ramsey models so they are dependent on the increment of time, $\Delta t$, 
@@ -48,8 +46,7 @@ and then taking the limit of these models as the size of this increment goes to 
 The resulting models are equivalent to continuous-time Ramsey models. 
 Second, We examine these models in a basic adaptive learning framework. 
 We  accomplish this by applying exogenous updating rules to models with a specified stochastic process. 
-After seeing that the misspecified models converge, We then implement a real-time updating rule where agents update their parameter estimates---for a stochastic process---after observing output of the process. </font>
-</div>
+After seeing that the misspecified models converge, We then implement a real-time updating rule where agents update their parameter estimates---for a stochastic process---after observing output of the process. 
 
 *<font size="3">For more information and code from this project visit my <a href="https://github.com/chandlerlester/Stylized_Learning">repo.</a></font>*
 

@@ -29,7 +29,7 @@ There are several important settings you need to change to host your domain thro
 
 
     3. Change DNS settings 
-<img src="images/dns_settings.png" width="700">
+<img src="../images/dns_settings.png" width="700">
  
 
 ## Customization 

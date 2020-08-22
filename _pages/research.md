@@ -24,7 +24,7 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 
 ### [Boundedly Rational Decision Making in Continuous-Time](https://chandlerlester.com/images/Lester_Chandler_Ch2.pdf)
 <div>
-<img class="img-responsive" style="float:left;margin-right:10px;width:450px;height:300px;" src="/images/Tmap_Convergence.gif"> 
+<img class="img-responsive" style="float:left;margin-right:10px;width:450px;height:300px;" src="/images/Tmap_Convergence.gif" title="Convergence of the discrete-time Tmap to the continuous-time solutions"> 
 <font size="3">
 Continuous-time macroeconomic literature has expanded greatly in recent years. 
 Modeling in this framework allows for the combination of classic macroeonomic and financial asset modeling techniques. 

@@ -11,14 +11,31 @@ class: wide
 ---
 # Research 
 ---
-<font size="3">My work focuses on implementing adaptive learning techniques in stochastic continuous-time models. 
+<font size="3">
+The 2008 financial crisis and ensuing Great Recession permanently altered the global economy and how most people think about their finances. 
+Why did financial markets crash? How did the lending behavior of a few banks lead to a global slowdown? 
+And, perhaps most importantly, what can we learn to help us prevent future similar catastrophes? 
 
-This setting advantageous as the solution algorithms for these models is fast and yields detailed information about the distribution of key variables. </font>
+I seek to answer these questions through developing more sophisticated models of the economy that capture the financial system's influence over individual decision making; just as previous economic tools were developed in response to crises of demand or production, we now require new tools to anticipate crises caused by financial frictions and failing capital markets. 
+My research combines work in macroeconomic theory, finance, and behavioral modeling to deliver these tools. 
+</font>
 
 ## Works in Progress
 
-### Boundedly Rational Decision Making in Continuous-Time (In progress) 
-<font size="3">Continuous-time macroeconomic literature has expanded greatly in recent years. Modeling in this framework allows for the combination of classic macroeonomic and financial asset modeling techniques. As work on continuous-time models becomes more prevalent macroeconomists will have to adapt essential discrete-time methods to continuous-time. The aim of this paper is to modify adaptive learning techniques to continuous-time. One approach to accomplish this  task,  is  to  begin  with  shadow-price  learning  (SP-learning) a framework in  which  agents  forecast  their  expected  shadow  prices. In  order  to  use  this framework, I first need a tractable continuous-time linear quadratic regulator (LQR) problem. While discrete-time LQR problems are common in economics literature, there is very little work on continuous-time LQR problems. Thus, the contributions of this work are two-fold. I build a continuous-time LQR framework  for  solving  Hamilton-Jacobi-Bellman’s  (HJBs) using iterative methods and implement adaptive learning techniques in this new framework.</font>
+### Boundedly Rational Decision Making in Continuous-Time (In progress)
+<div>
+<img class="img-responsive" style="float: left;margin-right: 25px;" src="../images/tmap.png"> 
+<font size="3">
+Continuous-time macroeconomic literature has expanded greatly in recent years. 
+Modeling in this framework allows for the combination of classic macroeonomic and financial asset modeling techniques. 
+As work on continuous-time models becomes more prevalent macroeconomists will have to adapt essential discrete-time methods to continuous-time. 
+The aim of this paper is to modify adaptive learning techniques to continuous-time. 
+One approach to accomplish this  task,  is  to  begin  with  shadow-price  learning  (SP-learning) a framework in  which  agents  forecast  their  expected  shadow  prices. 
+In  order  to  use  this framework, I first need a tractable continuous-time linear quadratic regulator (LQR) problem. 
+While discrete-time LQR problems are common in economics literature, there is very little work on continuous-time LQR problems. 
+Thus, the contributions of this work are two-fold. I build a continuous-time LQR framework  for  solving  Hamilton-Jacobi-Bellman’s  (HJBs) using iterative methods and implement adaptive learning techniques in this new framework.
+</font>
+</div> 
 
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises 
 <font size="3">I examine simple Ramsey models in both discrete and continuous-time settings, 

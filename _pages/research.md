@@ -25,7 +25,7 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 ### [Boundedly Rational Decision Making in Continuous-Time]("/images/Lester-Chandler_CH2")
 <div>
 <figure>
-<img class="img-responsive" style="float: left;margin-right:25px" src="/images/Tmap_Convergence.gif"> 
+<img class="img-responsive" style="float:left;margin-right:25px;width:500px;height:600px;" src="/images/Tmap_Convergence.gif"> 
 <figcaption>Convergence of the discrete-time adaptive learning solution to its continuous-time counterpart</figcaption>
 </figure>
 <font size="3">

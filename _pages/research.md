@@ -22,6 +22,9 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 
 ## Works in Progress
 
+### Bounded Rationality in Macroeconomic and Finance Models: A Continuous-Time Approach (Coming Soon) 
+
+
 ### [Boundedly Rational Decision Making in Continuous-Time](https://chandlerlester.com/images/Lester_Chandler_Ch2.pdf)
 <div>
 <img class="img-responsive" style="float:left;margin-right:10px;width:550px;height:350px;" src="/images/Tmap_Convergence.gif" title="Convergence of the discrete-time Tmap to the continuous-time solutions"> 
@@ -39,10 +42,15 @@ Hamilton-Jacobi-Bellman (HJB) equations using iterative methods and implement ad
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises (Third-Year Paper) 
 <div> 
 <img class="img-responsive" style="float:left;margin-right:10px;width:550px;height:350px;" src="/images/Value_med_k.png" title="Performance of the exogenous rule over 10,000 interations"> 
-<font size="3">I examine simple Ramsey models in both discrete and continuous-time settings, 
-then using exact discrete time models that depend on time intervals I demonstrate that the discrete models limit to the continuous-time models.
-The majority of this paper focuses on stylized learning rules in the continuous-time setting. 
-These stylized learning rules involve updating parameters, but no direct feedback from the model itself.</font>
+<font size="3">
+We accomplish two distinct, but closely connected, tasks in this paper.
+First, We look to create a connection between discrete and continuous-time models.
+This is done by recasting traditional discrete Ramsey models so they are dependent on the increment of time, $\Delta t$, 
+and then taking the limit of these models as the size of this increment goes to zero. 
+The resulting models are equivalent to continuous-time Ramsey models. 
+Second, We examine these models in a basic adaptive learning framework. 
+We  accomplish this by applying exogenous updating rules to models with a specified stochastic process. 
+After seeing that the misspecified models converge, We then implement a real-time updating rule where agents update their parameter estimates---for a stochastic process---after observing output of the process. </font>
 </div>
 
 *<font size="3">For more information and code from this project visit my <a href="https://github.com/chandlerlester/Stylized_Learning">repo.</a></font>*

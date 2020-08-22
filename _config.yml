@@ -11,7 +11,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" #"air" "dirt" , "dark", "default" , "aqua",  "neon", "mint", "plum", "sunrise"
-#classes                  : wide
+classes                  : wide
 # Site Settings
 locale                   : "en-US"
 title                    : "Chandler Lester"

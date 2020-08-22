@@ -45,6 +45,7 @@ Thus, the contributions of this work are two-fold. I build a continuous-time LQR
 then using exact discrete time models that depend on time intervals I demonstrate that the discrete models limit to the continuous-time models.
 The majority of this paper focuses on stylized learning rules in the continuous-time setting. 
 These stylized learning rules involve updating parameters, but no direct feedback from the model itself.</font>
-*<font size="3">For more information and code from this project visit my <a href="https://github.com/chandlerlester/Stylized_Learning">repo.</a></font>*
 </div>
+
+*<font size="3">For more information and code from this project visit my <a href="https://github.com/chandlerlester/Stylized_Learning">repo.</a></font>*
 

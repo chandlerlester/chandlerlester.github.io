@@ -1,8 +1,8 @@
 ---
 title: "How to Build a Website Using Github"
 author: "Chandler Lester"
-date: "`r format(Sys.time(), '%d %B %Y')`"
-output: slidy_presentation
+date: ""
+output: html_document
 keep_md: true
 ---
 
@@ -65,13 +65,13 @@ Grant's website is also built on Minimal Mistakes, see how different [his](http:
 
 These designer's constantly update themes, and they all have a lot of customizable settings. 
 
-## Let's Play Around with Some of the Basic Settings 
-
 ## References 
 
 * Github Guides: [setting up the website repo](https://guides.github.com/features/pages/)  
-* Luis L, Medium.com: [Github pages & google domains](https://guides.github.com/features/pages/)
+* Luis L, Medium.com: [Github pages & google domains](https://medium.com/@Tnylnc/tnylnc-how-to-set-up-github-pages-with-google-domains-83bd5a4fbc5c)
 * [Michael Rose](http://github.com/mmistakes): [minimal mistakes set up](https://mmistakes.github.io/minimal-mistakes/)
 * [Adam Pritchard](https://github.com/adam-p): [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+## Exciting Github Pages News 
+* The Github Blog: [custom domains gain https support!](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
        

@@ -41,7 +41,6 @@ Hamilton-Jacobi-Bellman (HJB) equations using iterative methods and implement ad
 
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises (Third-Year Paper) 
 <div> 
-<img class="img-responsive" style="float:left;margin-right:10px;width:550px;height:350px;" src="/images/Value_med_k.png" title="Performance of the exogenous rule over 10,000 interations"> 
 <font size="3">
 We accomplish two distinct, but closely connected, tasks in this paper.
 First, We look to create a connection between discrete and continuous-time models.

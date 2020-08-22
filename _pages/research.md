@@ -22,7 +22,7 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 
 ## Works in Progress
 
-### [Boundedly Rational Decision Making in Continuous-Time]("/images/Lester-Chandler_CH2")
+### [Boundedly Rational Decision Making in Continuous-Time](https://chandlerlester.com/images/Lester_Chandler_Ch2.pdf)
 <div>
 <img class="img-responsive" style="float:left;margin-right:10px;width:450px;height:300px;" src="/images/Tmap_Convergence.gif"> 
 <font size="3">

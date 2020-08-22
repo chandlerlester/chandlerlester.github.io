@@ -25,7 +25,7 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 ### [Boundedly Rational Decision Making in Continuous-Time]("/images/Lester-Chandler_CH2")
 <div>
 <figure>
-<img class="img-responsive" style="float:left;margin-right:25px;width:500px;height:300px;" src="/images/Tmap_Convergence.gif"> 
+<img class="img-responsive" style="float:left;margin-right:10px;width:450px;height:300px;" src="/images/Tmap_Convergence.gif"> 
 </figure>
 <font size="3">
 Continuous-time macroeconomic literature has expanded greatly in recent years. 

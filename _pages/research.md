@@ -24,7 +24,7 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 
 ### [Boundedly Rational Decision Making in Continuous-Time](https://chandlerlester.com/images/Lester_Chandler_Ch2.pdf)
 <div>
-<img class="img-responsive" style="float:left;margin-right:10px;width:750px;height:500px;" src="/images/Tmap_Convergence.gif" title="Convergence of the discrete-time Tmap to the continuous-time solutions"> 
+<img class="img-responsive" style="float:left;margin-right:10px;width:550px;height:350px;" src="/images/Tmap_Convergence.gif" title="Convergence of the discrete-time Tmap to the continuous-time solutions"> 
 <font size="3">
 Continuous-time macroeconomic literature has expanded greatly in recent years. 
 Modeling in this framework allows for the combination of classic macroeonomic and financial asset modeling techniques. 
@@ -40,7 +40,7 @@ Thus, the contributions of this work are two-fold. I build a continuous-time LQR
 
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises (Third-Year Paper) 
 <div> 
-<img class="img-responsive" style="float:right;margin-left:10px;width:750px;height:500px;" src="/images/Value_med_k.png" title="Performance of the exogenous rule over 10,000 interations"> 
+<img class="img-responsive" style="float:right;margin-left:10px;width:550px;height:350px;" src="/images/Value_med_k.png" title="Performance of the exogenous rule over 10,000 interations"> 
 <font size="3">I examine simple Ramsey models in both discrete and continuous-time settings, 
 then using exact discrete time models that depend on time intervals I demonstrate that the discrete models limit to the continuous-time models.
 The majority of this paper focuses on stylized learning rules in the continuous-time setting. 

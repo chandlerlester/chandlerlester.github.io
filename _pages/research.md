@@ -23,8 +23,9 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 ## Works in Progress
 
 ### [Boundedly Rational Decision Making in Continuous-Time]("/images/Lester-Chandler_CH2")
-<div>
-<img class="img-responsive" style="float: left;margin-right:" src="/images/tmap.png"> 
+<div class="container2">
+<img class="img-responsive" style="float: left;margin-right:25px" src="/images/tmap.png"> 
+<div style="float:right;">
 <font size="3">
 Continuous-time macroeconomic literature has expanded greatly in recent years. 
 Modeling in this framework allows for the combination of classic macroeonomic and financial asset modeling techniques. 
@@ -35,6 +36,7 @@ In  order  to  use  this framework, I first need a tractable continuous-time lin
 While discrete-time LQR problems are common in economics literature, there is very little work on continuous-time LQR problems. 
 Thus, the contributions of this work are two-fold. I build a continuous-time LQR framework  for  solving  Hamilton-Jacobi-Bellman’s  (HJBs) using iterative methods and implement adaptive learning techniques in this new framework.
 </font>
+</div>
 </div> 
 
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises 

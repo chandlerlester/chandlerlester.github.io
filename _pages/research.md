@@ -26,8 +26,8 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 
 
 
-<div>
-<img class="img-responsive" style="float:left;margin-right:10px;width:550px;height:350px;" src="/images/Tmap_Convergence.gif" title="Convergence of the discrete-time Tmap to the continuous-time solutions"> 
+![Convergence of the discrete-time Tmap to the continuous-time solutions](/images/Tmap_Convergence.gif){: .align-right}
+
 ### [Boundedly Rational Decision Making in Continuous-Time](https://chandlerlester.com/images/Lester_Chandler_Ch2.pdf)
 Continuous-time macroeconomic literature has grown remarkably in recent
 years. As work on continuous-time models becomes, more prevalent macroeconomists need to adapt essential discrete-time methods to continuous-time.
@@ -35,7 +35,7 @@ This paper modifies adaptive learning techniques to continuous-time. One approac
 environment. While discrete-time LQ problems are common in the literature,
 there is very little work on continuous-time LQ problems. Thus, our contributions are two-fold. We build a continuous-time LQ framework for solving
 Hamilton-Jacobi-Bellman (HJB) equations using iterative methods and implement adaptive learning techniques in this new setting.
-</div> 
+{: .text-left}
 
 
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises (Third-Year Paper) 

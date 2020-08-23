@@ -9,16 +9,15 @@ classes: wide
  # overlay_color: "#5e616c"
  # overlay_image: ../images/Research_splash.jpg
 ---
+
 # Research 
 ---
-<font size="3">
 The 2008 financial crisis and ensuing Great Recession permanently altered the global economy and how most people think about their finances. 
 Why did financial markets crash? How did the lending behavior of a few banks lead to a global slowdown? 
 And, perhaps most importantly, what can we learn to help us prevent future similar catastrophes? 
 
 I seek to answer these questions through developing more sophisticated models of the economy that capture the financial system's influence over individual decision making; just as previous economic tools were developed in response to crises of demand or production, we now require new tools to anticipate crises caused by financial frictions and failing capital markets. 
 My research combines work in macroeconomic theory, finance, and behavioral modeling to deliver these tools. 
-</font>
 
 ## Works in Progress
 
@@ -26,7 +25,7 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 
 
 
-![Convergence of the discrete-time Tmap to the continuous-time solutions](/images/Tmap_Convergence.gif){: .align-right}
+![Convergence of the discrete-time Tmap to the continuous-time solutions](/images/Tmap_Convergence.gif "Convergence of the discrete-time Tmap to the continuous-time solutions"){: .align-right}
 
 ### [Boundedly Rational Decision Making in Continuous-Time](https://chandlerlester.com/images/Lester_Chandler_Ch2.pdf)
 Continuous-time macroeconomic literature has grown remarkably in recent
@@ -41,7 +40,7 @@ Hamilton-Jacobi-Bellman (HJB) equations using iterative methods and implement ad
 ### Adaptive Learning in a Continuous-Time Setting: Representative Agent Exercises (Third-Year Paper) 
 We accomplish two distinct, but closely connected, tasks in this paper.
 First, We look to create a connection between discrete and continuous-time models.
-This is done by recasting traditional discrete Ramsey models so they are dependent on the increment of time, $\Delta t$, 
+This is done by recasting traditional discrete Ramsey models so they are dependent on the increment of time, Δ, 
 and then taking the limit of these models as the size of this increment goes to zero. 
 The resulting models are equivalent to continuous-time Ramsey models. 
 Second, We examine these models in a basic adaptive learning framework. 

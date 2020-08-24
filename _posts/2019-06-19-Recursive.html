@@ -1,13 +1,13 @@
 ---
 layout: splash
 classes: wide
-title: "Recursive Methods for Continuous Time"
+title: "Recursive Methods for Continuous-Time"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: "true"
 permalink: /RecursiveMethods/
-excerpt: "A derivation of a continuous time recursive least squares algorithm, using the Kalman filter."
+excerpt: "A derivation of a continuous-time recursive least squares algorithm, using the Kalman filter."
 share: true
 ---
 
@@ -425,126 +425,4 @@ $(document).ready(function () {
         \hat{x}(t+1) &amp;= F(t)\hat{x}(t) + K(t)[y(t) - H(t)\hat{x}(t)], \\\label{eq:Kalman1}\tag{8}
         K(t)&amp;= \dfrac{F(t)P(t)H^{\top}(t)}{r_{2}(t)+H(t)P(t)H^{\top}(t)}, \\\label{eq:covariaceUpdate1}\tag{9}
         P(t+1) &amp;= F(t)P(t)F^{\top}(t) + R_{1}(t) -F(t)P(t)H^{\top}(t)[r_{2}(t)+H(t)P(t)H^{\top}(t)]^{-1}H(t)P(t)F^{\top}(t). 
-    \end{align}\]</span> In these equations the covariance matrices for <span class="math inline">\(\{w(t)\}\)</span> and <span class="math inline">\(\{e(t)\}\)</span> are <span class="math inline">\(R_1(t)\)</span> and <span class="math inline">\(r_2(t)\)</span>.</p>
-<p>If we rewrite the state-space model as, <span class="math display">\[\begin{align}\label{eq:Newmod1}\tag{10}
-        \theta(t+1)&amp;=\theta(t) \\\label{eq:Newmod2}\tag{11}
-        y(t)&amp;= \theta^{\top}(t)\varphi(t) + e(t) 
-    \end{align}\]</span> and define <span class="math inline">\(R_1(t)=0\)</span> and <span class="math inline">\(r_2(t)=1\)</span> the Kalman filter will become our RLS system. Our new Kalman filter will be the following, <span class="math display">\[\begin{align}\label{eq:NewK}\tag{12}
-        \hat{\theta}(t+1) &amp;= \hat{\theta}(t) + K(t)[y(t) - \varphi^{\top}(t)\theta(t)], \\\tag{13}
-        K(t)&amp;= \dfrac{P(t)\varphi(t)}{r_{2}(t)+\varphi^{\top}(t)P(t)\varphi(t)}, \\\tag{14}
-        P(t+1) &amp;= P(t)-P(t)\varphi(t)[r_{2}(t)+\varphi^{\top}(t)P(t)\varphi(t)]^{-1}\varphi^{\top}(t)P(t). 
-    \end{align}\]</span> As we can see this is equivalent to the system in <span class="math inline">\((\ref{eq:ModifiedRLS})-(\ref{eq:ModifiedRLSend})\)</span> with <span class="math inline">\(1/\alpha_{k} = r_2(t) = 1\)</span>, <span class="math inline">\(K(t)=L(t)\)</span>, and some modified timing conventions. The Kalman filter and RLS are the same algorithms under these assumptions, this will be useful as the continuous-time Kalman filter has a more intuitive and well-documented derivation than continuous-time RLS.</p>
-</div>
-<div id="the-continuous-time-kalman-filter" class="section level3">
-<h3>The Continuous-Time Kalman Filter</h3>
-<p>The continuous-time Kalman filter is used when measurements are continuous functions of time. In this section, I will go through the derivation of the continuous-time Kalman filter . If we modify <span class="math inline">\((\ref{eq:StateS1})-(\ref{eq:StateS2})\)</span> to depend on the increment of time the system will become, <span class="math display">\[\begin{align}\nonumber
-        x_{k+1} &amp;= (I +F_k\Delta t)x_{k} + w_{k} \\ \nonumber
-        y_{k} &amp;= H_k x_k + e_k
-    \end{align}\]</span> here the covariance matrix for <span class="math inline">\(\{w_k\}\)</span> is <span class="math inline">\(R_{1}(k)\Delta t\)</span> and the covariance matrix for <span class="math inline">\(\{e(k)\}\)</span> is <span class="math inline">\(r_{2}(k)/(\Delta t)\)</span>. First, we will examine what happens to the Kalman gain in <span class="math inline">\((\ref{eq:Kalman1})\)</span> as <span class="math inline">\({\Delta t \rightarrow 0}\)</span>. Our Kalman gain will become, <span class="math display">\[\begin{equation*}
-        K(t)= \dfrac{(I +F(t)\Delta t)P(t)H^{\top}(t)}{(r_{2}(t)/\Delta t)+H(t)P(t)H^{\top}(t)}
-    \end{equation*}\]</span> rearranging this we will get <span class="math display">\[\begin{equation*}
-        \frac{1}{\Delta t} K(t) = \dfrac{(I +F(t)\Delta t)P(t)H^{\top}(t)}{r_{2}(t)+H(t)P(t)H^{\top}(t)\Delta t}
-    \end{equation*}\]</span> and taking the limit of this will yield, <span class="math display">\[\begin{equation}\label{Kcontgain}\tag{15}
-      \underset{\Delta t\rightarrow0}{\lim}\frac{1}{\Delta t} K(t) =P(t)H^{\top}(t)r^{-1}_{2}(t)
-    \end{equation}\]</span> this is our continuous-time Kalman gain.</p>
-<p>Now, we can examine <span class="math inline">\((\ref{eq:covariaceUpdate1})\)</span>. Rewriting <span class="math inline">\((\ref{eq:covariaceUpdate1})\)</span> for our new system we will get, <span class="math display">\[\begin{equation*}
-    \begin{split}
-        P(t+1) &amp;= (I +F(t)\Delta t)P(t)(I +F(t)\Delta t)^{\top} + R_{1}(t)\Delta t \\&amp;-(I +F(t)\Delta t)P(t)H^{\top}(t)[(r_{2}(t)/\Delta t)+H(t)P(t)H^{\top}(t)]^{-1}H(t)P(t)(I +F(t)\Delta t)^{\top}. 
-    \end{split}
-    \end{equation*}\]</span> We can eliminate and terms and divide by <span class="math inline">\(\Delta t\)</span> to get, <span class="math display">\[\begin{equation*}
-    \begin{split}
-       \frac{1}{\Delta t}  P(t+1) &amp;=\frac{1}{\Delta t}P(t) +  F(t)P(t)+ P(t)F^{\top}(t) + R_{1}(t) \\&amp;-(I +F(t)\Delta t)P(t)H^{\top}(t)[r_{2}(t)+H(t)P(t)H^{\top}(t)\Delta t]^{-1}H(t)P(t)(I +F(t)\Delta t)^{\top}. 
-    \end{split}
-    \end{equation*}\]</span> Then, taking the limit as <span class="math inline">\({\Delta t \rightarrow 0}\)</span>, <span class="math display">\[\begin{equation}\nonumber
-    \begin{split}
-      \underset{\Delta t\rightarrow0}{\lim\hspace{3ex}} \frac{1}{\Delta t} \big( P(t+1) - P(t)\big)=
-      \dot{P}(t) &amp;= F(t)P(t)+ P(t)F^{\top}(t) + R_{1}(t) -P(t)H^{\top}(t)[r_{2}(t)]^{-1}H(t)P(t)
-    \end{split}
-    \end{equation}\]</span> this equation is our continuous-time covariance updating equation.</p>
-<p>Last, we will derive the estimate updating equation. In this setting <span class="math inline">\((\ref{eq:stateupdate1})\)</span> will become, <span class="math display">\[\begin{equation*}
-        \hat{x}(t+1) = (I +F(t)\Delta t)\hat{x}(t) + K(t)[y(t) - H(t)\hat{x}(t)]
-    \end{equation*}\]</span> diving this by <span class="math inline">\(\Delta t\)</span> will give us, <span class="math display">\[\begin{equation*}
-        \frac{1}{\Delta t}(\hat{x}(t+1)-\hat{x}(t)) = F(t)\hat{x}(t) + \frac{K(t)}{\Delta t}[y(t) - H(t)\hat{x}(t)].
-    \end{equation*}\]</span> Now, we can take the limit as <span class="math inline">\(\Delta t \rightarrow 0\)</span> and use equation <span class="math inline">\((\ref{Kcontgain})\)</span>, <span class="math display">\[\begin{equation}\nonumber
-        \dot{\hat{x}}(t) = F(t)\hat{x}(t) + P(t)H^{\top}(t)r^{-1}_{2}(t)[y(t) - H(t)\hat{x}(t)]
-    \end{equation}\]</span> this will be our systems estimate updating equation.</p>
-<p>Thus our continuous time Kalman filter for this system can be described by the following equations. Our system can be rewritten as, <span class="math display">\[\begin{align}\tag{16}
-    \dot{x} &amp;= Fx + w \\\tag{17}
-    y &amp;= Hx + v 
-\end{align}\]</span> and our Kalman filter will be, <span class="math display">\[\begin{align}\tag{18}
-    \dot{P} &amp;= FP+ P(t)F^{\top} + R_{1} -PH^{\top}[r_{2}]^{-1}HP\\\tag{19}
-    K &amp;=PH^{\top}r^{-1}_{2} \\ \tag{20}
-    \dot{\hat{x}}&amp;= F\hat{x} + K[y - H\hat{x}]
-\end{align}\]</span> now that we have established how to derive the continuous-time Kalman filter we can use this to get a continuous version of RLS.</p>
-</div>
-<div id="continuous-time-recursive-least-squares" class="section level3">
-<h3>Continuous-Time Recursive Least Squares</h3>
-<p>We can rewrite the system in <span class="math inline">\((\ref{eq:Newmod1})-(\ref{eq:Newmod2})\)</span> as, <span class="math display">\[\begin{align}\tag{21}
- \dot{\theta}(t) &amp;= 0 \\\tag{22}
-y(t) &amp;= \theta^\top(t)\varphi(t) + e(t) 
-\end{align}\]</span> Now, with <span class="math inline">\(R_{1}=0\)</span> and variance for <span class="math inline">\(e(t)\)</span> equal to <span class="math inline">\(1\)</span>, our RLS system will be <span class="math display">\[\begin{align}\label{Kcont2}\tag{23}
-    \dot{P} &amp;= -P\varphi\varphi^{\top} P\\\tag{24}
-    K &amp;=P\varphi\\ \label{Kcont2end}\tag{25}
-    \dot{\hat{\theta}}(t)&amp;= K[y(t) - \hat{\theta}(t)\varphi(t)].
-\end{align}\]</span></p>
-<p>We can also, derive this more rigorously starting from a discretized version of the model. The discretized version of our model with an undetermined time step <span class="math inline">\(\Delta t\)</span> is, <span class="math display">\[\begin{align}\nonumber
-   \theta_{k+1} &amp;= \theta_{k}\\\nonumber
-    y_k &amp;= \theta_{k}^\top\varphi_k + e_k
-\end{align}\]</span> Where, the covariance matrix for <span class="math inline">\(\{e(k)\}\)</span> is <span class="math inline">\(1/(\Delta t)\)</span>. Also, our weights <span class="math inline">\(\alpha_{k} = \Delta t\)</span> First we can examine the gain term in <span class="math inline">\((\ref{eq:ModifiedRLSmid})\)</span>. Writing <span class="math inline">\((\ref{eq:ModifiedRLSmid})\)</span> in this setting we’ll have, <span class="math display">\[\begin{equation*}
-\begin{split}
-    L(t) &amp;= P(t-1)\varphi(t)[(1/\Delta t)+ \varphi(t)P(t-1)\varphi^{\top}(t)]^{-1}\\
-    &amp;=P(t-1)\varphi(t)\Delta t[1+ \varphi(t)P(t-1)\varphi^{\top}(t)\Delta t]^{-1}.
-\end{split}
-\end{equation*}\]</span> Dividing through by <span class="math inline">\(\Delta t\)</span> and then taking the limit as <span class="math inline">\(\Delta t \rightarrow 0\)</span> we get, <span class="math display">\[\begin{equation}\tag{26}
-    K = \underset{\Delta \rightarrow 0}{\lim}\frac{1}{\Delta t} L(t) =  P(t-1)\varphi(t)
-\end{equation}\]</span></p>
-<p>Next, if we look at <span class="math inline">\((\ref{eq:ModifiedRLSend})\)</span> we can rewrite this equation as, <span class="math display">\[\begin{equation}\nonumber
-\begin{split}
-    P(t)-P(t-1) &amp;= -P(t-1)\varphi(t)\varphi^{\top}(t)P(t-1)[(1/\Delta t) + \varphi(t)P(t-1)\varphi^{\top}(t)]^{-1}\\
-    &amp;= -P(t-1)\varphi(t)\varphi^{\top}(t)P(t-1)\Delta t[1 + \varphi(t)P(t-1)\varphi^{\top}(t)\Delta t]^{-1}.
-\end{split}
-\end{equation}\]</span> Dividing through by <span class="math inline">\(\Delta t\)</span> and then taking the limit as <span class="math inline">\(\Delta t \rightarrow 0\)</span> we get, <span class="math display">\[\begin{equation}\tag{27}
-    \dot{P}(t) = -P(t-1)\varphi(t)\varphi^{\top}(t)P(t-1) = -K\varphi^{\top}(t)P(t-1). 
-\end{equation}\]</span></p>
-<p>Last, we can derive the continuous time estimate updating equation <span class="math inline">\((\ref{eq:ModifiedRLS})\)</span>. Rewriting this equation and diving through by <span class="math inline">\(\Delta t\)</span> yields, <span class="math display">\[\begin{equation}\nonumber
-    \frac{1}{\Delta t}\big(\hat{\theta}(t)-\hat{\theta}(t-1)\big) = \frac{1}{\Delta t}L(t)[y(t)-\hat{\theta}^{\top}(t-1)\varphi(t)].
-\end{equation}\]</span> Limiting this as <span class="math inline">\(\Delta t \rightarrow 0\)</span> we get, <span class="math display">\[\begin{equation}\tag{28}
-    \dot{\hat{\theta}}(t) = K[y(t)-\hat{\theta}^{\top}(t-1)\varphi(t)].
-\end{equation}\]</span> These equations we have just derived are the same as the Kalman filter equations in <span class="math inline">\((\ref{Kcont2})-(\ref{Kcont2end})\)</span>. Again we have shown that the RLS and Kalman Filter equations are the same under particular assumptions.</p>
-</div>
-<div id="references" class="section level3">
-<h3>References</h3>
-<p>Lewis, F., Xie, L., &amp; Popa, D. 2007. <em>Optimal and Robust Estimation: With an Introduction to Stochastic Control Theory</em> . Second edn. CRC Press.</p>
-<p>Ljung, L., &amp; Söderström, T. 1983. <em>Theory and Practice of Recursive Identification</em> . MIT Press</p>
-</div>
-
-
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
-</body>
-</html>
+    \end{align}\]</span> In these equations the covariance matrices for <span class="math inline">\(\{w(t)\}\)</span> and <span class="math inline">\(\{e(t)\}

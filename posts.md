@@ -5,4 +5,4 @@ permalink: /posts/
 classes: wide
 ---
 
-## Code Snippets, Math, & Presentations
+# Code Snippets, Math, & Presentations

@@ -7,6 +7,8 @@ excerpt: "The final set of slides from my EC 202 class. In this lecture I attemp
 share: true
 ---
 
+### [Economic Research](/images/topics-in-econ.pdf)
+
 The final set of slides from my EC 202 class. In this lecture I attempted to show students actual research that economists do and I tried to expose them to diverse array of topics and researchers.
 
 <object data="/images/topics-in-econ.pdf" type="application/pdf" width="700px" height="700px">

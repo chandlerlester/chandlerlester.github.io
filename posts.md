@@ -1,6 +1,8 @@
 ---
-title: "Code Snippets, Math, & Presentations"
+title: ""
 layout: posts
 permalink: /posts/
 classes: wide
 ---
+
+## Code Snippets, Math, & Presentations

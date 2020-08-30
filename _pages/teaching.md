@@ -12,7 +12,7 @@ class: wide
 
 <iframe src="/images/teachingfig.html" scrolling = "yes" width="50%" height="500" style="border:none;"></iframe>
 
-<div style="width:50%; height:500px;float:right" markdown="1"> 
+<div style="width:50%; height:50%;float:right" markdown="1"> 
 
 **EC313:** *Intermediate Macroeconomics*  
    Summer 2018, Fall 2018, Spring 2020  

@@ -22,7 +22,13 @@ My research combines work in macroeconomic theory, finance, and behavioral model
 ## Works in Progress
 
 ### Bounded Rationality in Macroeconomic and Finance Models: A Continuous-Time Approach (Coming Soon) 
-
+We reconsider optimal decision making in a continuous-time framework using adaptive learning, 
+specifically shadow-price learning. 
+In our setting, the agent makes decisions at high frequencies, which reduces the volatility of the agent's choices and leads to faster real-time convergence to the rational expectations equilibrium.
+Faster convergence is attributed to  the agent's ability to alter their forecasts more often as new information becomes available.
+We explore these dynamics in a real business cycle framework. 
+Alternative sampling methods where the data generating process is a higher frequency than the agent's observations and other extensions are also explored in this paper.
+We show that these sampling methods yield similar results to the case where the agent takes in all data points and are less computationally burdensome. 
 
 
 

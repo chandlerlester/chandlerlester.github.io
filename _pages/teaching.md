@@ -21,7 +21,7 @@ class: wide
 **EC202:** *Principles of Macroeconomics*&mdash;Fall 2019  
   Syllabus: [*Infographic Version*](../images/ec202-fall2019_40286598.pdf), [*Text Version*](../images/EC202_F19.pdf)
   
-  [Teaching Evaluations](../images/ChandlerLester_TeachingEvals.pdf){: .btn .btn--primary} 
+  [Teaching Qualifications](../images/ChandlerLester_TeachingEvals.pdf){: .btn .btn--primary} 
   
   [Teaching Statement](../images/ChandlerLester_TeachingStatement.pdf){: .btn .btn--primary}
   

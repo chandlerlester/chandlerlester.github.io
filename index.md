@@ -10,6 +10,6 @@ I am a fifth-year PhD candidate at the University of Oregon. My dissertation foc
 
 Other projects of mine focus on predicting bank failures using machine learning and big data. 
 
-Areas of interest: continuous-time macroeconomics, adaptive learning, finance, banking, and computational methods.  
+Areas of interest: continuous-time macroeconomics, adaptive learning, and computational methods.  
 
-I will be on the job-market during the 2020-2021 academic year. 
+I am currently the job-market. 

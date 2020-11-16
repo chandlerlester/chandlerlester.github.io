@@ -25,6 +25,8 @@ class: wide
   
   [Teaching Statement](../images/ChandlerLester_TeachingStatement.pdf){: .btn .btn--primary}
   
+  [Diversity Statement](../images/ChandlerLester_DiversityStatement.pdf){: .btn .btn--primary}
+  
 </div> 
 
 

@@ -12,4 +12,4 @@ Other projects of mine focus on predicting bank failures using machine learning 
 
 Areas of interest: continuous-time macroeconomics, adaptive learning, and computational methods.  
 
-I am currently the job-market. 
+I am currently on the job-market. 

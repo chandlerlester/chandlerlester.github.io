@@ -12,12 +12,6 @@ comments: false
 
 # Research 
 ---
-The 2008 financial crisis and ensuing Great Recession permanently altered the global economy and how most people think about their finances. 
-Why did financial markets crash? How did the lending behavior of a few banks lead to a global slowdown? 
-And, perhaps most importantly, what can we learn to help us prevent future similar catastrophes? 
-
-I seek to answer these questions through developing more sophisticated models of the economy that capture the financial system's influence over individual decision making; just as previous economic tools were developed in response to crises of demand or production, we now require new tools to anticipate crises caused by financial frictions and failing capital markets. 
-My research combines work in macroeconomic theory, finance, and behavioral modeling to deliver these tools. 
 
 ## Works in Progress
 

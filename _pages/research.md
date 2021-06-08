@@ -15,7 +15,7 @@ comments: false
 
 ## Works in Progress
 
-### [<i class="fa fa-link" aria-hidden="true"></i> Job Market Paper: Bounded Rationality in Macroeconomic: A Continuous-Time Approach ](https://chandlerlester.com/images/Lester_Chandler_JMP.pdf) &emsp; [(slides)](https://chandlerlester.com/images/JMP_presentation_60.pdf)
+### [<i class="fa fa-link" aria-hidden="true"></i> Job Market Paper: Bounded Rationality in Macroeconomic: A Continuous-Time Approach ](https://chandlerlester.com/images/Lester_Chandler_JMP.pdf) 
 We reconsider optimal decision making in a continuous-time framework using adaptive learning, specifically shadow-price learning;
 we explore these dynamics in a real business cycle framework.
 The agent in our shadow-price learning model takes in information and updates their forecasts of future states and their decisions regarding choice variables. 

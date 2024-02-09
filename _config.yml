@@ -71,15 +71,15 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/chandlerlester/
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/ChandlerLester_
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/chandlerlester
-    - label: "Email"
-      icon: "fa fa-envelope"
-      url: mailto:clester3@uoregon.edu
+#    - label: "Twitter"
+ #     icon: "fab fa-fw fa-twitter-square"
+ #     url: https://twitter.com/ChandlerLester_
+ #   - label: "GitHub"
+  #    icon: "fab fa-fw fa-github"
+  #    url: https://github.com/chandlerlester
+  #  - label: "Email"
+   #   icon: "fa fa-envelope"
+    #  url: mailto:clester3@uoregon.edu
 
 # Reading Files
 include:

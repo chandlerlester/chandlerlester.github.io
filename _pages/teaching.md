@@ -8,7 +8,7 @@ class: wide
 # Teaching
 ---
 
-## As an Independent Instructor:
+## As an Independent Instructor at the University of Oregon:
 
 <iframe src="/images/teachingfig.html" scrolling = "yes" width="50%" height="500" style="border:none;"></iframe>
 

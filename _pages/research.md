@@ -14,7 +14,7 @@ comments: false
 ---
 ## CBO Working Papers 
 
-### [<i class="fa fa-link" aria-hidden="true"></i> How CBO Projects Inflation (2024) ](https://chandlerlester.com/images/Lester_Chandler_JMP.pdf](https://www.cbo.gov/publication/59877) 
+### [<i class="fa fa-link" aria-hidden="true"></i> How CBO Projects Inflation (2024)](https://www.cbo.gov/publication/59877) 
 
 ## Dissertation Chapters
 

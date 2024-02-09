@@ -7,4 +7,4 @@ author_profile: false
 
 I am a principal analyst in the Congressional Budget Office's Macroeconomic Analysis Division. I received my PhD from the University of Oregon in 2021. 
 
-Areas of interest: inflation, house prices, economic projections.   
+Areas of interest: inflation, house prices, economic projections.      

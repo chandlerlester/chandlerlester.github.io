@@ -12,8 +12,11 @@ comments: false
 
 # Research 
 ---
+## CBO Working Papers 
 
-## Works in Progress
+### [<i class="fa fa-link" aria-hidden="true"></i> How CBO Projects Inflation (2024) ](https://chandlerlester.com/images/Lester_Chandler_JMP.pdf](https://www.cbo.gov/publication/59877) 
+
+## Dissertation Chapters
 
 ### [<i class="fa fa-link" aria-hidden="true"></i> Job Market Paper: Bounded Rationality in Macroeconomic: A Continuous-Time Approach ](https://chandlerlester.com/images/Lester_Chandler_JMP.pdf) 
 We reconsider optimal decision making in a continuous-time framework using adaptive learning, specifically shadow-price learning;

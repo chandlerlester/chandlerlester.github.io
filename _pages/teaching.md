@@ -16,14 +16,14 @@ class: wide
 
 **EC313:** *Intermediate Macroeconomics*  
    Summer 2018, Fall 2018, Spring 2020  
-   Syllabus: [*Original*](../images/EC313_F2018.pdf), [*COVID-19 Version*](../images/EC313_SP20.pdf)
+   <!---Syllabus: [*Original*](../images/EC313_F2018.pdf), [*COVID-19 Version*](../images/EC313_SP20.pdf)-->
    
 **EC202:** *Principles of Macroeconomics*&mdash;Fall 2019  
-  Syllabus: [*Infographic Version*](../images/ec202-fall2019_40286598.pdf), [*Text Version*](../images/EC202_F19.pdf)
+  <!---Syllabus: [*Infographic Version*](../images/ec202-fall2019_40286598.pdf), [*Text Version*](../images/EC202_F19.pdf)-->
   
   [Teaching Qualifications](../images/ChandlerLester_TeachingEvals.pdf){: .btn .btn--primary} 
   
-  [Teaching Statement](../images/ChandlerLester_TeachingStatement.pdf){: .btn .btn--primary}
+  <!---[Teaching Statement](../images/ChandlerLester_TeachingStatement.pdf){: .btn .btn--primary}-->
   
 </div> 
 
